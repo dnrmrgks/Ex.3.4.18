@@ -21,6 +21,13 @@
 		00FA7901187BCC7B00B6E487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FA78E3187BCC7A00B6E487 /* UIKit.framework */; };
 		00FA7909187BCC7B00B6E487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FA7907187BCC7B00B6E487 /* InfoPlist.strings */; };
 		00FA790B187BCC7B00B6E487 /* Ex_3_4_18Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FA790A187BCC7B00B6E487 /* Ex_3_4_18Tests.m */; };
+		00FA7916187BCF1200B6E487 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FA7915187BCF1200B6E487 /* Product.m */; };
+		00FA791F187BD06F00B6E487 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FA791E187BD06F00B6E487 /* ProductCell.m */; };
+		00FA7930187BD74000B6E487 /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FA792D187BD74000B6E487 /* ball1.png */; };
+		00FA7931187BD74000B6E487 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FA792E187BD74000B6E487 /* ball2.png */; };
+		00FA7932187BD74000B6E487 /* ball3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FA792F187BD74000B6E487 /* ball3.png */; };
+		00FA7934187BD74F00B6E487 /* Golf Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FA7933187BD74F00B6E487 /* Golf Ball.png */; };
+		00FA7936187BD75C00B6E487 /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FA7935187BD75C00B6E487 /* car1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		00FA7906187BCC7B00B6E487 /* Ex.3.4.18Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex.3.4.18Tests-Info.plist"; sourceTree = "<group>"; };
 		00FA7908187BCC7B00B6E487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FA790A187BCC7B00B6E487 /* Ex_3_4_18Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex_3_4_18Tests.m; sourceTree = "<group>"; };
+		00FA7914187BCF1200B6E487 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		00FA7915187BCF1200B6E487 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		00FA791D187BD06F00B6E487 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		00FA791E187BD06F00B6E487 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		00FA792D187BD74000B6E487 /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		00FA792E187BD74000B6E487 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		00FA792F187BD74000B6E487 /* ball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball3.png; sourceTree = "<group>"; };
+		00FA7933187BD74F00B6E487 /* Golf Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Golf Ball.png"; sourceTree = "<group>"; };
+		00FA7935187BD75C00B6E487 /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
+		00FA7937187BE17800B6E487 /* CartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +99,16 @@
 		00FA78D3187BCC7A00B6E487 = {
 			isa = PBXGroup;
 			children = (
+				00FA7937187BE17800B6E487 /* CartDelegate.h */,
+				00FA7935187BD75C00B6E487 /* car1.png */,
+				00FA7933187BD74F00B6E487 /* Golf Ball.png */,
+				00FA792D187BD74000B6E487 /* ball1.png */,
+				00FA792E187BD74000B6E487 /* ball2.png */,
+				00FA792F187BD74000B6E487 /* ball3.png */,
+				00FA791D187BD06F00B6E487 /* ProductCell.h */,
+				00FA791E187BD06F00B6E487 /* ProductCell.m */,
+				00FA7914187BCF1200B6E487 /* Product.h */,
+				00FA7915187BCF1200B6E487 /* Product.m */,
 				00FA78E5187BCC7A00B6E487 /* Ex.3.4.18 */,
 				00FA7904187BCC7B00B6E487 /* Ex.3.4.18Tests */,
 				00FA78DE187BCC7A00B6E487 /* Frameworks */,
@@ -228,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FA7932187BD74000B6E487 /* ball3.png in Resources */,
+				00FA7930187BD74000B6E487 /* ball1.png in Resources */,
+				00FA7936187BD75C00B6E487 /* car1.png in Resources */,
 				00FA78F8187BCC7A00B6E487 /* Images.xcassets in Resources */,
+				00FA7934187BD74F00B6E487 /* Golf Ball.png in Resources */,
 				00FA78EA187BCC7A00B6E487 /* InfoPlist.strings in Resources */,
 				00FA78F3187BCC7A00B6E487 /* Main.storyboard in Resources */,
+				00FA7931187BD74000B6E487 /* ball2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FA78F6187BCC7A00B6E487 /* ViewController.m in Sources */,
+				00FA7916187BCF1200B6E487 /* Product.m in Sources */,
 				00FA78F0187BCC7A00B6E487 /* AppDelegate.m in Sources */,
 				00FA78EC187BCC7A00B6E487 /* main.m in Sources */,
+				00FA791F187BD06F00B6E487 /* ProductCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
