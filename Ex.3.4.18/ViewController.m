@@ -93,7 +93,7 @@
              [Product product:@"PocketBall" price:@"200" image:@"ball2.png" ],
              [Product product:@"TennisBall" price:@"250" image:@"ball3.png"],
              [Product product:@"GolfBall" price:@"300" image:@"Golf Ball.png"],
-             [Product product:@"BeachBall" price:@"999" image:@"car1.png"]];
+             [Product product:@"Car" price:@"999" image:@"car1.png"]];
     
     cart = [[NSMutableArray alloc]init];
 
